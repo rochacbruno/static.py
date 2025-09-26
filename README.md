@@ -1,4 +1,10 @@
-Basic
+# Simplest Blog Generator
+
+Install UV https://docs.astral.sh/uv/getting-started/installation/ 
+
+
+
+## Basic blog
 
 ```bash
 mkdir blog
@@ -7,7 +13,7 @@ echo "# Hello World" > blog/2025-01-31-hello-world.md
 uv run static.py blog public
 ```
 
-Custom template
+## Custom template
 
 ```bash
 mkdir blog/templates
@@ -15,3 +21,7 @@ echo "<html> ... MY AWESOME JINJA for {{posts}} </html>" > blog/templates/index.
 echo "<html> ... MY AWESOME JINJA for {{post}} </html>" > blog/templates/post.html
 uv run static.py blog public
 ```
+
+---
+
+**Fork and customize**
