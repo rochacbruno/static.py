@@ -1,4 +1,4 @@
-# Simplest Blog Generator
+# Single File Simple Static Blog Generator
 
 - Install UV https://docs.astral.sh/uv/getting-started/installation/ 
 - Clone this repo (or simply copy `static.py`)
